@@ -1,6 +1,8 @@
 1. Mô tả bàn cờ Caro
+
 _ Bàn cờ có kích thước là 18 x 18 có 2 chiều x nằm ngang và y nằm dọc. Điểm có tọa độ (1, 1) là ô nằm trên cùng bên trái.
 2. Thuật toán Minimax
+
 _ Ta sử dụng để quỵ để xét qua từng trạng thái của cây trò chơi.
 _ Ở lớp Max điểm số trả về sẽ là điểm số lớn nhất ứng với nước đi có lợi nhất.
 _ Ở lớp Min điểm số trả về sẽ là điểm số bé nhất ứng với nước đi có hại nhất (Nước đi có lợi nhất đối với đối phương).
