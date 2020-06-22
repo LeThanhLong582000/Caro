@@ -23,7 +23,7 @@
 * Sau đây mình sẽ hướng dẫn các bạn chạy chương trình sử dụng Code Block.
 * Trước hết bạn cần tải và cài đặt Code Block.
 * Link tải Code Block: http://www.codeblocks.org/downloads/26
-* Sau đó bạn cần tải SFML và liên kết vào Code Block ( Do trong project đã có sẵn các file dll của SFML nên các bạn không cần phải copy lại các file dll của SFML vào project nữa :)) )
+* Sau đó bạn cần tải SFML và liên kết vào Code Block ( Do trong project đã có sẵn các file dll của SFML nên các bạn không cần phải copy lại các file dll của SFML vào project nữa :)) ). Link tải SFML: https://www.sfml-dev.org/download/sfml/2.5.1/
 * Để liên kết SFML vào Code Block các bạn làm theo các bước sau:
 + Mở file Caro.cbp bằng Code Block khi đó các bạn đã mở được project Caro bằng Code Block
 + Trên thanh công cụ của Code Block các bạn chon Project -> Build options sau đó chọn phần Linker settings trong cửa sổ hiện lên.
