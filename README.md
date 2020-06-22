@@ -18,3 +18,20 @@
 * MiniMax: Dùng để đưa ra quyết định của AI.
 * isWin: Kiểm tra xem AI đã thắng chưa ( Có 5 tick liên tiếp).
 * isLose: Kiểm tra xem AI đã thua chưa ( Người chơi có 5 tick liên tiếp).
+4. Hướng dẫn chạy chương trình
+* Để chạy được chương trình bạn cần cài đặt SFML và liên kết các thư viện.
+* Sau đây mình sẽ hướng dẫn các bạn chạy chương trình sử dụng Code Block.
+* Trước hết bạn cần tải và cài đặt Code Block.
+* Link tải Code Block: http://www.codeblocks.org/downloads/26
+* Sau đó bạn cần tải SFML và liên kết vào Code Block ( Do trong project đã có sẵn các file dll của SFML nên các bạn không cần phải copy lại các file dll của SFML vào project nữa :)) )
+* Để liên kết SFML vào Code Block các bạn làm theo các bước sau:
++ Mở file Caro.cbp bằng Code Block khi đó các bạn đã mở được project Caro bằng Code Block
++ Trên thanh công cụ của Code Block các bạn chon Project -> Build options sau đó chọn phần Linker settings trong cửa sổ hiện lên.
++ Sau đó các bạn add thêm các thư viện sau vào phần Link libraries: sfml-graphics, sfml-network, sfml-audio, sfml-system, sfml-window nếu các bạn đang chọn ở phần Release.
++ Đối với phần Debug các bạn chỉ cần thêm -d vào cuối mỗi thư viện (sfml-graphics-d, ...)
++ Sau đó các bạn chọn phần Search directories, chọn Complier sau đó add director là đường dẫn đến file include của SFML
++ Cũng ở phần Search directories các bạn chọn Linker sau đó add director là đường dẫn đến file lib của SFML
++ Như vậy các bạn đã liên kết thành công SFML vào Code Block.
++ Việc cuối cùng các bạn cần làm là chạy chương trình. Các bạn chỉ việc ấn vào nút build and run trên thanh công cụ của Code Block hoặc nhấn F9 để chạy chương trình và tận hưởng trò chơi.
+
+* Ngoài ra các bạn có thể xem thêm video hướng dẫn cách cài SFML cho Code Block. Đây là đường link dẫn tới 1 video như vậy https://www.youtube.com/watch?v=fcZFaiGFIMA&t=464s.
